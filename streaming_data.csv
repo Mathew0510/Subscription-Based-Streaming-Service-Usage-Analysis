@@ -1,0 +1,23 @@
+user_id,content,genre,watch_time,session_duration,user_ratings,viewing_history,date
+1,Stranger Worlds,Sci-Fi,120,45,4.5,Completed,2024-01-01
+2,Comedy Night,Comedy,80,25,3.8,Partial,2024-01-01
+3,Mystery Manor,Thriller,200,70,4.9,Completed,2024-01-02
+4,Love Forever,Romance,150,50,4.3,Completed,2024-01-02
+5,Action Hero,Action,300,90,4.7,Completed,2024-01-03
+6,The Explorer,Documentary,60,30,4.0,Partial,2024-01-03
+7,Fantasy Quest,Fantasy,210,65,4.6,Completed,2024-01-04
+8,History Unfolded,Documentary,90,35,3.5,Partial,2024-01-04
+9,Sitcom Stars,Comedy,100,40,4.2,Completed,2024-01-05
+10,Dark Secrets,Thriller,240,80,4.8,Completed,2024-01-05
+11,Galactic Wars,Sci-Fi,320,120,4.9,Completed,2024-01-06
+12,The Office Comedy,Comedy,150,60,4.4,Completed,2024-01-06
+13,Love Sparks,Romance,180,55,4.3,Completed,2024-01-07
+14,Crime Files,Thriller,210,75,4.7,Completed,2024-01-07
+15,Wild Adventures,Action,280,100,4.6,Completed,2024-01-08
+16,Space Voyagers,Sci-Fi,260,110,4.8,Completed,2024-01-08
+...
+96,Magic Kingdom,Fantasy,220,70,4.7,Completed,2024-02-01
+97,Retro Adventures,Action,160,50,4.3,Completed,2024-02-01
+98,Hearts Entwined,Romance,140,45,4.2,Completed,2024-02-02
+99,Tech Titans,Sci-Fi,250,85,4.8,Completed,2024-02-02
+100,The Last Mystery,Thriller,230,75,4.9,Completed,2024-02-02
