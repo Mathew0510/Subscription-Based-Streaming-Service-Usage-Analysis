@@ -1,23 +1,101 @@
-user_id,content,genre,watch_time,session_duration,user_ratings,viewing_history,date
-1,Stranger Worlds,Sci-Fi,120,45,4.5,Completed,2024-01-01
-2,Comedy Night,Comedy,80,25,3.8,Partial,2024-01-01
-3,Mystery Manor,Thriller,200,70,4.9,Completed,2024-01-02
-4,Love Forever,Romance,150,50,4.3,Completed,2024-01-02
-5,Action Hero,Action,300,90,4.7,Completed,2024-01-03
-6,The Explorer,Documentary,60,30,4.0,Partial,2024-01-03
-7,Fantasy Quest,Fantasy,210,65,4.6,Completed,2024-01-04
-8,History Unfolded,Documentary,90,35,3.5,Partial,2024-01-04
-9,Sitcom Stars,Comedy,100,40,4.2,Completed,2024-01-05
-10,Dark Secrets,Thriller,240,80,4.8,Completed,2024-01-05
-11,Galactic Wars,Sci-Fi,320,120,4.9,Completed,2024-01-06
-12,The Office Comedy,Comedy,150,60,4.4,Completed,2024-01-06
-13,Love Sparks,Romance,180,55,4.3,Completed,2024-01-07
-14,Crime Files,Thriller,210,75,4.7,Completed,2024-01-07
-15,Wild Adventures,Action,280,100,4.6,Completed,2024-01-08
-16,Space Voyagers,Sci-Fi,260,110,4.8,Completed,2024-01-08
-...
-96,Magic Kingdom,Fantasy,220,70,4.7,Completed,2024-02-01
-97,Retro Adventures,Action,160,50,4.3,Completed,2024-02-01
-98,Hearts Entwined,Romance,140,45,4.2,Completed,2024-02-02
-99,Tech Titans,Sci-Fi,250,85,4.8,Completed,2024-02-02
-100,The Last Mystery,Thriller,230,75,4.9,Completed,2024-02-02
+user_id,content,genre,watch_time,session_duration,viewing_history,user_ratings
+1,Stranger Things,Sci-Fi,180,70,Yes,4.5
+2,Breaking Bad,Drama,250,120,Yes,5.0
+3,The Office,Comedy,90,45,Yes,4.8
+4,Money Heist,Thriller,200,85,Yes,4.7
+5,Friends,Comedy,150,60,Yes,4.9
+6,Dark,Sci-Fi,300,150,Yes,4.6
+7,The Witcher,Fantasy,210,95,Yes,4.4
+8,Black Mirror,Sci-Fi,180,75,No Data,4.5
+9,Game of Thrones,Fantasy,400,160,Yes,4.3
+10,Lucifer,Drama,190,80,Yes,4.7
+11,BoJack Horseman,Animation,120,50,No Data,4.2
+12,The Boys,Action,220,110,Yes,4.6
+13,Better Call Saul,Drama,170,78,Yes,4.8
+14,Arcane,Animation,200,88,Yes,4.9
+15,Squid Game,Thriller,240,115,Yes,4.7
+16,House of Cards,Drama,180,73,Yes,4.4
+17,Peaky Blinders,Crime,260,130,Yes,4.9
+18,Narcos,Crime,200,90,Yes,4.8
+19,Modern Family,Comedy,140,58,Yes,4.5
+20,The Mandalorian,Sci-Fi,230,100,Yes,4.7
+21,Westworld,Sci-Fi,220,90,Yes,4.3
+22,Brooklyn Nine-Nine,Comedy,130,50,Yes,4.7
+23,You,Thriller,180,70,Yes,4.5
+24,Euphoria,Drama,240,120,Yes,4.6
+25,Rick and Morty,Animation,200,85,Yes,4.8
+26,The Crown,Drama,210,95,Yes,4.4
+27,Vikings,Action,270,125,Yes,4.6
+28,The Umbrella Academy,Fantasy,230,100,Yes,4.5
+29,Ozark,Crime,250,110,Yes,4.7
+30,Big Mouth,Animation,150,60,No Data,4.2
+31,Sex Education,Comedy,170,65,Yes,4.8
+32,The Haunting of Hill House,Horror,210,100,Yes,4.6
+33,Altered Carbon,Sci-Fi,240,110,Yes,4.4
+34,The Handmaid's Tale,Drama,260,130,Yes,4.7
+35,13 Reasons Why,Drama,190,80,Yes,4.3
+36,Supernatural,Fantasy,280,140,Yes,4.7
+37,Lost,Sci-Fi,300,150,Yes,4.4
+38,The Big Bang Theory,Comedy,180,75,Yes,4.6
+39,How to Get Away with Murder,Crime,210,95,Yes,4.7
+40,The Good Place,Comedy,140,55,Yes,4.8
+41,Shadow and Bone,Fantasy,220,90,Yes,4.6
+42,The Expanse,Sci-Fi,210,105,Yes,4.7
+43,Bloodline,Drama,170,72,Yes,4.4
+44,The 100,Sci-Fi,280,135,Yes,4.5
+45,The Simpsons,Animation,150,60,Yes,4.8
+46,Mr. Robot,Drama,190,85,Yes,4.9
+47,Daredevil,Action,250,120,Yes,4.6
+48,The Flash,Action,230,110,Yes,4.3
+49,Chilling Adventures of Sabrina,Horror,180,78,Yes,4.5
+50,The Originals,Fantasy,260,130,Yes,4.8
+51,The Walking Dead,Horror,300,145,Yes,4.6
+52,Castle Rock,Horror,200,100,Yes,4.4
+53,Doctor Who,Sci-Fi,320,160,Yes,4.7
+54,The Punisher,Action,270,125,Yes,4.5
+55,Jessica Jones,Action,250,110,Yes,4.6
+56,Bates Motel,Horror,210,105,Yes,4.8
+57,Locke & Key,Fantasy,200,90,Yes,4.4
+58,Good Omens,Fantasy,230,100,Yes,4.7
+59,American Horror Story,Horror,290,140,Yes,4.6
+60,Orphan Black,Sci-Fi,240,115,Yes,4.5
+61,Homeland,Drama,220,110,Yes,4.3
+62,Sherlock,Crime,310,155,Yes,4.9
+63,Prison Break,Crime,280,140,Yes,4.7
+64,Bodyguard,Thriller,230,100,Yes,4.8
+65,Black Sails,Adventure,210,95,Yes,4.4
+66,Marco Polo,Adventure,250,120,Yes,4.5
+67,The Last Kingdom,Drama,280,135,Yes,4.7
+68,The Terror,Horror,190,85,Yes,4.3
+69,Hannibal,Thriller,230,100,Yes,4.6
+70,The Leftovers,Drama,240,110,Yes,4.5
+71,The Man in the High Castle,Drama,270,130,Yes,4.4
+72,The Pacific,War,260,125,Yes,4.7
+73,Spartacus,Action,290,140,Yes,4.6
+74,Boardwalk Empire,Drama,320,160,Yes,4.8
+75,Fargo,Crime,210,105,Yes,4.7
+76,Broadchurch,Crime,180,85,Yes,4.6
+77,The Bridge,Crime,200,90,Yes,4.5
+78,True Blood,Fantasy,280,135,Yes,4.7
+79,Salem,Horror,240,110,Yes,4.3
+80,Penny Dreadful,Horror,230,100,Yes,4.8
+81,The Night Of,Crime,200,95,Yes,4.4
+82,Mindhunter,Crime,260,125,Yes,4.7
+83,The OA,Sci-Fi,210,105,Yes,4.5
+84,Big Little Lies,Drama,230,100,Yes,4.6
+85,The Sinner,Crime,220,110,Yes,4.4
+86,Yellowstone,Drama,280,140,Yes,4.7
+87,Goliath,Drama,240,115,Yes,4.5
+88,Ray Donovan,Crime,250,120,Yes,4.6
+89,Ballers,Comedy,200,90,Yes,4.3
+90,Suits,Drama,290,135,Yes,4.8
+91,Billions,Drama,270,125,Yes,4.7
+92,The Marvelous Mrs. Maisel,Comedy,210,100,Yes,4.9
+93,White Collar,Crime,230,110,Yes,4.5
+94,Longmire,Crime,250,120,Yes,4.6
+95,House,Drama,310,155,Yes,4.7
+96,Fringe,Sci-Fi,320,160,Yes,4.8
+97,Leverage,Action,240,115,Yes,4.4
+98,Elementary,Crime,260,125,Yes,4.7
+99,The Mentalist,Crime,300,145,Yes,4.6
+100,Person of Interest,Sci-Fi,280,140,Yes,4.7
